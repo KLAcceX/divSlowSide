@@ -1,3 +1,3 @@
 # divSlowSide
 
-divSlowSide is a **SLOW** way to draw maps (using divs and controlling with jQuery). :D
+divSlowSide is a **SLOW** way to draw 2D maps (using divs and controlling with jQuery). :D
