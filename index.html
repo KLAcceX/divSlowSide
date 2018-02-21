@@ -26,27 +26,31 @@
 	}
 
 	#main{
-		width: 100%;
+		width: 100vw;
 		height: 100%;
 		background: black;
 	}
 
-	.flag{
+	.square{
 		position: relative;
 		width: 6px;
 		height: 3px;
 		display: inline-block;
 	}
 
+	.square.t{
+		background: transparent !important;
+	}
+
 	.rod{
 		border-right: 2px solid black;
 	}
 
-	.flag:nth-of-type(2n){
+	.square:nth-of-type(2n){
 		background: black;
 	}
 
-	.flag:nth-of-type(2n+1){
+	.square:nth-of-type(2n+1){
 		background: white;
 	}
 
@@ -76,7 +80,7 @@
 		border-right: 1px solid white;
 	}
 
-	.bottom{
+	.bottom, .trap{
 		border-bottom: 1px solid white;
 	}
 
